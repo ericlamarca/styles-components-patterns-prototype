@@ -1,0 +1,49 @@
+{% extends 'layouts/layout.html' %}
+
+{% block pageTitle %}
+  Styles, components, patterns prototype - Styles, components, patterns index
+{% endblock %}
+
+{% block beforeContent %}
+  <nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+    <div class="nhsuk-width-container">
+      <ol class="nhsuk-breadcrumb__list">
+        <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/v3">Home</a></li>
+        <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/v3/styles-components-patterns">Styles, components and patterns</a></li>
+				<li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/v3/styles-components-patterns/components">Components</a></li>
+
+      </ol>
+      <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="/v3/styles-components-patterns/components">Back to Components</a></p>
+    </div>
+  </nav>
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-two-thirds">
+
+			<h1>Make a basic page</h1>
+
+			<h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="#">Breadcrumbs</a></h2>
+			<p>Help users understand where they are in the website.</p>
+
+			<h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="#">Buttons</a></h2>
+			<p>Help users carry out an action on a page like starting an application or saving their progress.</p>
+
+      <h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="#">Footer</a></h2>
+			<p>Show users they are on an NHS service and to help them find links they expect at the bottom of our pages.</p>
+
+      <h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="#">Header</a></h2>
+			<p>Show users they are on an NHS service and help them get started in finding what they need.</p>
+
+      <h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="#">Images</a></h2>
+			<p>Use images only if there is a real user need. Avoid unnecessary decoration.</p>
+
+      <h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="#">Skip link</a></h2>
+			<p>Help keyboard-only users skip to the main content on a page.</p>
+
+    </div>  
+
+  </div>
+{% endblock %}

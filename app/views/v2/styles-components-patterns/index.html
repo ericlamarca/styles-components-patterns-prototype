@@ -1,0 +1,144 @@
+{% extends 'layouts/layout.html' %}
+
+{% block pageTitle %}
+  Styles, components, patterns prototype - Styles, components, patterns index
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    href: "/v1/",
+    text: "Home"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-two-thirds">
+
+			<h1>UI styles, components and patterns</h1>
+			<p class="nhsuk-body-l">Make your service look like the NHS website with tested design styles, components and patterns.</p>
+
+			<h2 class="nhsuk-u-margin-top-8">UI Styles</h2>
+			<p>These styles will give you the NHS website layout and look and feel.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="/v1/images/when">Colour</a></h2>
+			<p>An accessible colour palette with guidance.</p>
+
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="/v1/images/styles">Grid</a></h2>
+			<p>How to use our responsive grid system</p>
+	
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="/v1/images/inclusive">Icons</a></h2>
+			<p>A small set of icons tested with users.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="/v1/images/inclusive">Typography</a></h2>
+			<p>Font, text styles, sizes and spacing.</p>
+
+
+
+			<h2 class="nhsuk-u-margin-top-8">Components</h2>
+			<p>Save time and help users with these accessible UI parts.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Action link</a></h2>
+			<p>Help users get to the next stage of a journey quickly by signposting the start of a digital service.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Back link</a></h2>
+			<p>Help users go back to the previous page in a multi-page transaction.</p>
+	
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Breadcrumbs</a></h2>
+			<p>Help users understand where they are in the website.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Buttons</a></h2>
+			<p>Help users carry out an action on a page like starting an application or saving their progress.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Care cards</a></h2>
+			<p>Help users identify and understand the sort of care they need, who to contact and how quickly.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Checkboxes</a></h2>
+			<p>Let users select one or more options on a form.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Contents list</a></h2>
+			<p>Allow users to navigate between related pages, for example about a single condition.</p>
+
+			<h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Date input</a></h2>
+			<p>Help users enter a memorable date, like their date of birth.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Details</a></h2>
+			<p>Make a page easier to scan by letting users reveal more detailed information only if they need it.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Do and Don't lists</a></h2>
+			<p>Help users understand more easily what they should and shouldn't do.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Error message</a></h2>
+			<p>Explain what went wrong and how to fix it.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Error summary</a></h2>
+			<p>Summarise any mistakes a user has made.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Expander</a></h2>
+			<p>Make a complex topic easier to digest by letting users reveal more detailed information only if they need it.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Fieldset</a></h2>
+			<p>Group related form inputs.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Footer</a></h2>
+			<p>Show users they are on an NHS service and to help them find links they expect at the bottom of our pages.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Header</a></h2>
+			<p>Show users they are on an NHS service and help them get started in finding what they need.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Hint text</a></h2>
+			<p>Use hint text to help users understand a question.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Images</a></h2>
+			<p>Use images only if there is a real user need. Avoid unnecessary decoration.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Inset text</a></h2>
+			<p>Help users identify and understand important content on the page, even if they don't read the whole page.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Pagination</a></h2>
+			<p>Allow users to navigate between related pages, for example about a single condition.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Radios</a></h2>
+			<p>Help users to select only 1 option from a list.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Review date</a></h2>
+			<p>Reassure users that our information is up-to-date.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Select</a></h2>
+			<p>Let users choose an option from a long list but only use it as a last resort.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Skip link</a></h2>
+			<p>Help keyboard-only users skip to the main content on a page.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Table</a></h2>
+			<p>Make it easier for users to compare and scan information.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Text input</a></h2>
+			<p>Let users enter a single line of text.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Textarea</a></h2>
+			<p>Let users enter more than 1 line of text.</p>
+
+      <h2 class="nhsuk-heading-xs nhsuk-u-margin-bottom-2"><a href="#">Warning callout</a></h2>
+			<p>Help users understand warning content on the page, even if they don't read the whole page.</p>
+
+
+
+			<h2 class="nhsuk-u-margin-top-8">Patterns</h2>
+			<p>You can combine components in different patterns for different contexts. We’re still working on patterns and will publish them here.</p>
+
+
+			<h2 class="nhsuk-u-margin-top-8">Contribute</h2>
+			<p>You're welcome to adapt these components and patterns to create a new one. Check with us first on the <a href="#">NHS digital service manual Slack workspace</a> or email us at <a href="#">service-manual@nhs.net</a>. We may already be working on what you need.</p>
+			<p>Help improve the manual by contributing your work.</p>
+
+
+
+    </div>  
+
+  </div>
+{% endblock %}

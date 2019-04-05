@@ -1,0 +1,52 @@
+{% extends 'layouts/layout.html' %}
+
+{% block pageTitle %}
+  Styles, components, patterns prototype - Styles, components, patterns index
+{% endblock %}
+
+{% block beforeContent %}
+  {{ breadcrumb({
+    href: "/v1/",
+    text: "Home"
+  }) }}
+{% endblock %}
+
+{% block content %}
+  <div class="nhsuk-grid-row">
+
+    <div class="nhsuk-grid-column-two-thirds">
+
+			<h1>UI styles, components and patterns</h1>
+			<p class="nhsuk-body-l">Make your service look like the NHS website with tested design styles, components and patterns.</p>
+		
+		</div>
+
+		<div class="nhsuk-grid-column-full">
+
+			<div class="nhsuk-grid-row nhsuk-u-margin-top-8">
+				<div class="nhsuk-grid-column-one-third">
+					<h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="/v1/styles-components-patterns/styles">Styles</a></h2>
+					<p>The NHS website layout and look and feel.</p>
+				</div>
+				<div class="nhsuk-grid-column-one-third">
+					<h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="/v1/styles-components-patterns/components">Components</a></h2>
+					<p>Save time and help users with these accessible UI parts.</p>
+				</div>
+				<div class="nhsuk-grid-column-one-third">
+					<h2 class="nhsuk-heading-s nhsuk-u-margin-bottom-3"><a href="/v1/styles-components-patterns/patterns">Patterns</a></h2>
+					<p>Patterns are this and that thing.</p>
+				</div>
+			</div>
+
+    </div>  
+
+		<div class="nhsuk-grid-column-two-thirds">
+
+			<h2 class="nhsuk-u-margin-top-8">Contribute</h2>
+			<p>You're welcome to adapt these components and patterns to create a new one. Check with us first on the <a href="#">NHS digital service manual Slack workspace</a> or email us at <a href="#">service-manual@nhs.net</a>. We may already be working on what you need.</p>
+			<p>Help improve the manual by contributing your work.</p>
+
+		<div>
+
+  </div>
+{% endblock %}
